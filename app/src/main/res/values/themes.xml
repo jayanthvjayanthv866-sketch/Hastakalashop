@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!-- Royal Artisan Theme -->
+    <style name="Theme.HastaKalaShop.Royal" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/royalPrimary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/royalAccent</item>
+        <item name="android:windowBackground">@color/royalBackground</item>
+        <item name="android:statusBarColor">@color/royalPrimaryDark</item>
+        <item name="colorSurface">@color/white</item>
+    </style>
+
+    <!-- Modern Minimal Theme -->
+    <style name="Theme.HastaKalaShop.Modern" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/modernPrimary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/modernAccent</item>
+        <item name="android:windowBackground">@color/modernBackground</item>
+        <item name="android:statusBarColor">@color/modernPrimaryDark</item>
+        <item name="colorSurface">@color/white</item>
+    </style>
+
+    <!-- Earthy Natural Theme -->
+    <style name="Theme.HastaKalaShop.Earthy" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/earthyPrimary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/earthyAccent</item>
+        <item name="android:windowBackground">@color/earthyBackground</item>
+        <item name="android:statusBarColor">@color/earthyPrimaryDark</item>
+        <item name="colorSurface">@color/white</item>
+    </style>
+
+    <style name="Theme.HastaKalaShop" parent="Theme.HastaKalaShop.Royal" />
+    
+    <!-- Custom Styles -->
+    <style name="PremiumCard" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">8dp</item>
+        <item name="cardBackgroundColor">@color/cardBackgroundColor</item>
+    </style>
+</resources>
+

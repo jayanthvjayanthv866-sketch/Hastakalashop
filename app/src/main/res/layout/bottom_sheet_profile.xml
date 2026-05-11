@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_gradient_main"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <View
+        android:layout_width="40dp"
+        android:layout_height="4dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"
+        android:background="@color/borderGray" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Owner Profile"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtProfileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Name: Artisan Owner"
+        android:textColor="@color/accentCyan"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtProfilePhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone: +91 9876543210"
+        android:textColor="@color/textSecondary" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="20dp"
+        android:background="@color/borderGray" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Earnings Breakdown"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Today -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="12dp">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="Today's Earnings" android:textColor="@color/textSecondary" />
+        <TextView android:id="@+id/txtTodayEarn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="₹0.00" android:textColor="@color/accentNeon" android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- This Week -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="12dp">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="This Week's Earnings" android:textColor="@color/textSecondary" />
+        <TextView android:id="@+id/txtWeekEarn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="₹0.00" android:textColor="@color/white" android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- This Month -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="This Month's Earnings" android:textColor="@color/textSecondary" />
+        <TextView android:id="@+id/txtMonthEarn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="₹0.00" android:textColor="@color/white" android:textStyle="bold" />
+    </LinearLayout>
+
+    <android.widget.Button
+        android:id="@+id/btnEditProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bg_rounded_edittext"
+        android:text="Edit Details"
+        android:textColor="@color/white" />
+
+    <android.widget.Button
+        android:id="@+id/btnViewArchive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_rounded_edittext"
+        android:text="View Archived Products"
+        android:textColor="@color/accentCyan" />
+
+</LinearLayout>

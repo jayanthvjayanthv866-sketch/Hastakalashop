@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Royal Artisan Palette -->
+    <color name="royalPrimary">#800000</color>
+    <color name="royalPrimaryDark">#400000</color>
+    <color name="royalAccent">#D4AF37</color>
+    <color name="royalBackground">#FFF8E1</color>
+    <color name="royalText">#3E2723</color>
+
+    <!-- Modern Minimal Palette -->
+    <color name="modernPrimary">#263238</color>
+    <color name="modernPrimaryDark">#000A12</color>
+    <color name="modernAccent">#00BFA5</color>
+    <color name="modernBackground">#ECEFF1</color>
+    <color name="modernText">#212121</color>
+
+    <!-- Earthy Natural Palette -->
+    <color name="earthyPrimary">#2E7D32</color>
+    <color name="earthyPrimaryDark">#005005</color>
+    <color name="earthyAccent">#795548</color>
+    <color name="earthyBackground">#F1F8E9</color>
+    <color name="earthyText">#1B5E20</color>
+
+    <!-- Standard Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="errorColor">#D32F2F</color>
+    
+    <!-- Legacy/Defaults -->
+    <color name="primaryColor">#800000</color>
+    <color name="secondaryColor">#D4AF37</color>
+    <color name="backgroundColor">#FFF8E1</color>
+    <color name="cardBackgroundColor">#FFFFFF</color>
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+    
+    <!-- Added for fragment_dashboard.xml compatibility -->
+    <color name="accentCyan">#00BCD4</color>
+    <color name="accentNeon">#39FF14</color>
+    
+    <!-- Added for other layouts compatibility -->
+    <color name="bgPrimary">#FFFFFF</color>
+    <color name="bgSecondary">#F5F5F5</color>
+    <color name="textMuted">#757575</color>
+    <color name="borderGray">#E0E0E0</color>
+    <color name="primaryDarkColor">#400000</color>
+    <color name="primaryLightColor">#FFCDD2</color>
+</resources>
+
+
