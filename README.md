@@ -216,7 +216,7 @@ HKBK College of Engineering, Bangalore
 # 📧 Contact
 
 * Email: [jayanthvjayanthv@gmail.com](mailto:jayanthvjayanthv@gmail.com)
-* GitHub: [https://github.com/sanketsuresh](https://github.com/sanketsuresh)
+* GitHub: [https://github.com/ https://github.com/jayanthvjayanthv866.git)
 
 ---
 
