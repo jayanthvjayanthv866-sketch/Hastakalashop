@@ -207,7 +207,7 @@ Example:
 
 # 👨‍💻 Developer
 
-**Sanket Suresh Basaragaon**
+*JayanthKumar V**
 Computer Science & Engineering Student
 HKBK College of Engineering, Bangalore
 
@@ -215,7 +215,7 @@ HKBK College of Engineering, Bangalore
 
 # 📧 Contact
 
-* Email: [sanketsuresh000@gmail.com](mailto:sanketsuresh000@gmail.com)
+* Email: [jayanthvjayanthv@gmail.com](mailto:jayanthvjayanthv@gmail.com)
 * GitHub: [https://github.com/sanketsuresh](https://github.com/sanketsuresh)
 
 ---
