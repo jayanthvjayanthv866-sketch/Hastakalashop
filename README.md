@@ -208,8 +208,8 @@ Example:
 # 👨‍💻 Developer
 
 *JayanthKumar V**
-Computer Science & Engineering Student
-HKBK College of Engineering, Bangalore
+Electronics & Communication Engineering Student
+Sri Sai Ram College of Engineering, Bangalore
 
 ---
 
